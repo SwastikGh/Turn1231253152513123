@@ -5,7 +5,7 @@ function revealContent() {
         revealContent.style.display = "none";
         revealButton.textContent = "Reveal";
     } else {
-        var countdown = 5;
+        var countdown = 10;
         var interval = setInterval(function() {
             if (countdown > 0) {
                 revealButton.textContent = countdown;
